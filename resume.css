@@ -80,3 +80,19 @@ a{
 .experience-introduce{
     margin-top: 8px;
 }
+.project-experience{
+    padding-bottom: 7px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+.personal-evaluation{
+    margin-top: 20px;
+}
+
+.personal-evaluation-list{
+    list-style: none;
+}
+
+.personal-evaluation-item{
+    margin-top: 5px;
+}
