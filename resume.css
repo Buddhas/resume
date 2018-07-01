@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/2.jpg")
+}
+
+a{
+    text-decoration: none;
+}
+
+.resume{
+    width: 80%;
+    box-shadow: 15px 10px 5px black;
+    margin: 0 auto;
+    background-color: #ebdfa0;
+    
+    margin-top: 40px;
+    margin-bottom:50px;
+    padding-bottom: 20px;
+}
+.title{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.content{
+    padding: 0 40px;
+}
+.personalInfor-content{
+    height: 140px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+}
+
+
+.row-item{
+    padding-bottom: 7px;
+}
+.head{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.education{
+    
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+}
+
+.skill{
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+}
+
+.skill-list{
+   margin-bottom: 7px;
+}
+
+.skill-item{
+    list-style-type: none;
+    padding:4px 0px;
+}
+
+.work-experience{
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+}
+.experience-item{
+    margin: 30px 0;
+}
+.experience-introduce{
+    margin-top: 8px;
+}
+.project-experience{
+    padding-bottom: 7px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+.personal-evaluation{
+    margin-top: 20px;
+}
+
+.personal-evaluation-list{
+    list-style: none;
+}
+
+.personal-evaluation-item{
+    margin-top: 5px;
+}
