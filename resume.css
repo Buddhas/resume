@@ -81,7 +81,6 @@ a{
     color: #777777;
     display: flex;
     justify-content: center;
-    margin-top: 8px;
 }
 .my-photo{
     left: 50%;
@@ -95,7 +94,7 @@ a{
     position: absolute;
     left: 50%;
     right: 50%;
-    transform: translate(-40%,-50%);
+    transform: translate(-50%,-50%);
     border-radius: 50%;
     padding: 2px;
     border: 1px solid #f4fff0;
