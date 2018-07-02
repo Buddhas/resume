@@ -123,6 +123,7 @@ a{
     margin-top: 15px;
     margin-left: -90px;
     color: #666;
+    display: flex;
 }
 .my-photo img{
     height: 150px;
