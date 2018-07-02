@@ -56,26 +56,51 @@ a{
 
 }
 .my-message{
-    position: absolute;
-    left: 49%;
-    top: 42%;
+    margin-top:-55px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 .name{
     font-size: 25px;
     font-weight: 100px;
-    margin-bottom: 3px; 
-    
+    margin-left: 15px;
 }
 .job{
     font-size: 20px;
-    margin-left: -55px;
-    margin-bottom: 3px; 
+    font-weight: 100px;
+    margin-left: 25px;
+    margin-top: 7px;
+
 }
 .age-and-position{
-    margin-left: -35px;
-    font-size: 18px;
-    color: #666;
-    margin-top: 15px;
+    color: #777777;
+    margin-top: 7px;
+}
+.connection{
+    color: #777777;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.my-photo{
+    left: 50%;
+    right: 50%;
+    height: 150px;
+    padding: 2px;
+}
+.my-photo img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-40%,-50%);
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #f4fff0;
+    background-color: #fafafa;
+    
 }
 .age::before{
     content:"";
@@ -119,25 +144,8 @@ a{
     background-image: url("./img/wechat.png");
     background-repeat:no-repeat;
 }
-.connection{
-    margin-top: 15px;
-    margin-left: -90px;
-    color: #666;
-    display: flex;
-}
-.my-photo img{
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    transform: translate(-40%,-50%);
-    border-radius: 50%;
-    padding: 2px;
-    border: 1px solid #f4fff0;
-    background-color: #fafafa;
-    
-}
+
+
 .enjoy{
     margin-top: 12px;
     padding-bottom: 8px;
