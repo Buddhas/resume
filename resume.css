@@ -137,7 +137,11 @@ a{
     background-color: #fafafa;
     
 }
-
+.enjoy{
+    margin-top: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+}
 
 .head{
     margin-bottom: 8px;
