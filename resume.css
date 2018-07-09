@@ -143,6 +143,18 @@ a{
     background-image: url("./img/wechat.png");
     background-repeat:no-repeat;
 }
+.email{
+    margin-left: 30px;
+}
+.email::before{
+    content: "";
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin-right: 8px;
+    background-image: url("./img/email.png");
+    background-repeat:no-repeat;
+}
 
 
 .enjoy{
